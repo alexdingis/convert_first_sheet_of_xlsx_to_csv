@@ -1,20 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 11 11:11:25 2018
-
-@author: Alexander
-
-"""
-
 import os
 import pandas as pd
 import time
 #
 #
 #
-xlsx_dir   = r"C:\Users\Alexander\Desktop\School\Projects\Zip_Rats\Crosswalks\Zip_to_County"
+xlsx_dir   = r"C:\some\path\to\a\dir\full\of\xlsx"
 #
-csv_dir    = r"C:\Users\Alexander\Desktop\School\Projects\Zip_Rats\Crosswalks\Zip_to_County"
+csv_dir    = r"C:\some\path\to\an\output\dir"
 #
 #
 #
@@ -54,10 +46,4 @@ def convert_first_sheet_of_xlsx_to_csv(input_xlsx_dir, output_csv_dir):
 #
 #
 convert_first_sheet_of_xlsx_to_csv(xlsx_dir, csv_dir)
-#
-#
-#
-
-#
-
 #
